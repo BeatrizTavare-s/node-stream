@@ -1,6 +1,6 @@
 
 import { Request, Response } from 'express';
-import { StreamService} from '../service/stream.service'
+import  StreamService from '../service/stream.service'
 export default class StreamController {
     private streamService: StreamService;
 
